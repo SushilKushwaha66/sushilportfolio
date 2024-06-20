@@ -1,0 +1,194 @@
+/* General Styles */
+.profile img{
+    height: 191px;
+    padding-right: 92%;
+    padding-bottom: 59px;
+    padding-bottom: 0px;
+    margin-top: -53px;
+    margin-bottom: -153px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #383636, #000000);
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+#about {
+    background: linear-gradient(135deg, #3a3a3a 0%,  #fecfef  100%);
+    margin: 1em 0;
+    padding: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Section Styles */
+section {
+    padding: 0em ;
+    text-align: center;
+    background: linear-gradient(135deg, #373737 0%, #fecfef 100%);
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+/* Project Styles */
+.projects {
+    background: linear-gradient(135deg, #6b6b6b 0%, #fecfef 100%);
+    margin: 1em 0;
+    padding: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(135deg, #6b6b6b 0%, #fecfef 100%);
+    padding: 4em ;
+    text-align: center;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#contact h2 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+form {
+    background: #fff;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+    display: block;
+    color: #333;
+    text-align: left;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 0.7em 1.5em;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 4px;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .social {
+    margin: 1em 0;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+footer .social a:hover {
+    color: #00c6ff;
+}
